@@ -85,6 +85,7 @@ Console.WriteLine();
 
 // 3
 {
+    // The following function was taken and modified from: https://labuladong.gitbook.io/algo-en/iv.-high-frequency-interview-problem/print_primenumbers
     bool IsPrime(int n)
     {
         for (int i = 2; i * i <= n; ++i)
